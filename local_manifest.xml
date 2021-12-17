@@ -16,4 +16,15 @@
 
         <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="hmm0" revision="tissot" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hmm0" revision="msm8953-common" clone-depth="1" />
+        
+ <!-- Wlan -->
+        <remote name="gma"
+                fetch="https://github.com/GhostMaster69-dev" />
+        
+        <remove-project name="android__hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="GhostMaster69-dev/android_hardware_qcom_wlan" remote="gma" revision="android-12.0-caf-4.9-S" clone-depth="1" />
+        
+ <!-- Sepolicy -->
+         <remove-project name="android_device_qcom_sepolicy" />
+         <project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy" remote="gma" revision="ssos-12-caf-4.9-S" clone-depth="1" />
 </manifest>
