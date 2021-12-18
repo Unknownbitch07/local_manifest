@@ -21,7 +21,7 @@
         <remote name="gma"
                 fetch="https://github.com/GhostMaster69-dev" />
         
-        <remove-project name="android__hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="GhostMaster69-dev/android_hardware_qcom_wlan" remote="gma" revision="android-12.0-caf-4.9-S" clone-depth="1" />
         
  <!-- Sepolicy -->
