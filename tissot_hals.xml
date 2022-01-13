@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="ub" fetch="https://github.com/LineageOS" />
+    <remote name="jabi" fetch="https://github.com/Jabiyeff-Project" />
 
 # Hals
     <remove-project name="android_hardware_qcom_audio" />
@@ -8,7 +9,5 @@
     <remove-project name="android_hardware_qcom_media" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ub" revision="lineage-18.1-caf-msm8996" />
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="ub" revision="lineage-18.1-caf-msm8996" />
-
-    <remote name="displayhal" fetch="https://github.com/Unknownbitch07" />
-    <project path="hardware/qcom-caf/msm8996/display" name="R-Hals" groups="pdk,qcom,qcom_display" remote="displayhal" revision="display-s" />
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="jabi" revision="11.0-9.6,3" />
 </manifest>
