@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="ub7"
-                fetch="https://github.com/Unknownbitch07" />
+                fetch="https://github.com/ucoboy" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="ub7" revision="twelve" clone-depth="1" />
         
