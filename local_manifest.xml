@@ -26,5 +26,5 @@
         
  <!-- Sepolicy -->
          <remove-project name="android_device_qcom_sepolicy" />
-         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="gma" revision="ssos-12-caf-4.9-S" clone-depth="1" />
+         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ub7" revision="android_12-legacy-um" clone-depth="1" />
 </manifest>
