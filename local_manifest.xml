@@ -27,4 +27,9 @@
  <!-- Sepolicy -->
          <remove-project name="android_device_qcom_sepolicy" />
          <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ub7" revision="android_12-legacy-um" clone-depth="1" />
+
+<!-- Clang -->
+         <remote name="gabuter"
+                 fetch="https://github.com/Gabuters-Dev/" />
+         <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="gabuters-clang" remote="gabuter" revision="master" clone-depth="1" />
 </manifest>
