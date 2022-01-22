@@ -21,4 +21,5 @@
          <remote name="pixelse"
                  fetch="https://github.com/PixelExperience" />   
          <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixelse" revision="twelve"/>
+         <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixelse" revision="twelve"/>
 </manifest>
