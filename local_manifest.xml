@@ -4,7 +4,7 @@
         <remote name="ub7"
                 fetch="https://github.com/ucoboy" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="ub7" revision="twelve" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="ub7" revision="spark" clone-depth="1" />
         
         <remote name="glassy"
                 fetch="https://github.com/glassydan" />
@@ -17,19 +17,8 @@
 
         <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="hmm0" revision="tissot" clone-depth="1" />
         
- <!-- Wlan -->
-        <remote name="gma"
-                fetch="https://github.com/GhostMaster69-dev" />
-        
-        <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="gma" revision="android-12.0-caf-4.9-S" clone-depth="1" />
-        
  <!-- Sepolicy -->
-         <remove-project name="android_device_qcom_sepolicy" />
-         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ub7" revision="android_12-legacy-um" clone-depth="1" />
-
-<!-- Clang -->
-         <remote name="krd"
-                 fetch="https://github.com/kdrag0n/" />
-         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="krd" revision="master" clone-depth="1" />
+         <remote name="pixelse"
+                 fetch="https://github.com/PixelExperience" />   
+         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixelse" revision="twelve"/>
 </manifest>
