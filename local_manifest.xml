@@ -18,7 +18,7 @@
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="hmm0" revision="msm8953-common" clone-depth="1" />
         
  <!-- Sepolicy -->
-         <remote name="pixelse"
-                 fetch="https://github.com/PixelExperience" />   
-         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixelse" revision="twelve"/>
+         <remote name="rasyid"
+                 fetch="https://github.com/RasyidAlKautsar" />   
+         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="rasyid" revision="12"/>
 </manifest>
