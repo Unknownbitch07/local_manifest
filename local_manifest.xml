@@ -12,4 +12,10 @@
         <remote name="glassy"
                 fetch="https://github.com/glassydan" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="a12/reb" clone-depth="1" />
+
+        <remote name="pxl12"
+                fetch="https://github.com/PixelExperience" />   
+        <remove-project name="xd_device_qcom_sepolicy-legacy-um"/>
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl12" revision="twelve"/>
+
 </manifest>
