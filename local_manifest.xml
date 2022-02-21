@@ -11,7 +11,7 @@
 
         <remote name="glassy"
                 fetch="https://github.com/glassydan" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="a12/reb" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="12" clone-depth="1" />
 
         <remote name="pxl12"
                 fetch="https://github.com/PixelExperience" />   
