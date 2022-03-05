@@ -9,9 +9,9 @@
         <project path="vendor/xiaomi/tissot" name="android_vendor_xiaomi_tissot" remote="ub7" revision="tissot" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="android_vendor_xiaomi_tissot" remote="ub7" revision="msm8953-common" clone-depth="1" />
 
-        <remote name="glassy"
-                fetch="https://github.com/glassydan" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="12" clone-depth="1" />
+        <remote name="pxlkernel"
+                fetch="https://github.com/PixelExperience-Devices" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="pxlkernel" revision="twelve" clone-depth="1" />
 
         <remote name="pxl12"
                 fetch="https://github.com/PixelExperience" />   
