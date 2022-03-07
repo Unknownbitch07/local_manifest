@@ -12,13 +12,13 @@
         <remote name="pxlkernel"
                 fetch="https://github.com/PixelExperience-Devices" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="pxlkernel" revision="twelve" clone-depth="1" />
-
-        <remote name="pxl12"
-                fetch="https://github.com/PixelExperience" />   
+   
         <remove-project name="xd_device_qcom_sepolicy-legacy-um"/>
-        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl12" revision="twelve"/>
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ub7" revision="xd"/>
 
 # Hals
+        <remote name="pxl12"
+                fetch="https://github.com/PixelExperience" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" revision="twelve" remote="pxl12" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pxl12" clone-depth="1" />
         <remote name="los" fetch="https://github.com/LineageOS" />
