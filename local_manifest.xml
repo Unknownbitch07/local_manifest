@@ -14,9 +14,6 @@
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="evokernel" revision="snow" clone-depth="1" />       
 
 <!-- Hals -->
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
         <remote name="pxl12"
                 fetch="https://github.com/PixelExperience" />
         <project path="hardware/qcom-caf/msm8996/display" name="tissot_hals" revision="display_s" remote="ub7" clone-depth="1" />
