@@ -13,12 +13,11 @@
                 fetch="https://github.com/Evolution-X-Devices" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="evokernel" revision="snow" clone-depth="1" />       
 
-<!-- Hals
+<!-- Hals -->
         <remote name="pxl12"
                 fetch="https://github.com/PixelExperience" />
-        <project path="hardware/qcom-caf/msm8996/display" name="tissot_hals" revision="display_s" remote="ub7" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pxl12" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996-r/display" name="tissot_hals" revision="display_s" remote="ub7" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996-r/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pxl12" clone-depth="1" />
         <remote name="los" fetch="https://github.com/LineageOS" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-19.1-caf-msm8996" />
--->
+        <project path="hardware/qcom-caf/msm8996-r/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-19.1-caf-msm8996" />
 </manifest>
