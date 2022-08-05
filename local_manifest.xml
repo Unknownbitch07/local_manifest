@@ -3,7 +3,7 @@
 
         <remote name="ub7"
                 fetch="https://github.com/ucoboy" />
-        <project path="device/xiaomi/sunfish" name="device_google_sunfish" remote="ub7" revision="twelve" clone-depth="1" />
+        <project path="device/google/sunfish" name="device_google_sunfish" remote="ub7" revision="twelve" clone-depth="1" />
 
         <remote name="pe"
                 fetch="https://github.com/PixelExperience-Devices" />
