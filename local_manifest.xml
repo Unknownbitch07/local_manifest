@@ -10,8 +10,8 @@
         <project path="vendor/xiaomi/tissot" name="android_vendor_xiaomi_tissot" remote="ub7" revision="tissot" clone-depth="1" />
         
         <remote name="pekernel"
-                fetch="https://github.com/PixelExperience-Devices" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="pekernel" revision="twelve" clone-depth="1" />       
+                fetch="https://github.com/Lafactorial" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-neon" remote="pekernel" revision="twelve" clone-depth="1" />       
 
 <!-- Hals -->
         <remove-project name="LineageOS/android_hardware_qcom_display" />
