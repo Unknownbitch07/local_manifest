@@ -15,6 +15,6 @@
         <remove-project name="vendor_evolution" />
         <remote name="hmm"
                 fetch="https://github.com/Hmm0" />
-        <project path="vendor/evolution" name="vendor_evolutiom" remote="hmm" revision="snow" clone-depth="1" />
+        <project path="vendor/evolution" name="vendor_evolution" remote="hmm" revision="snow" clone-depth="1" />
 
 </manifest>
