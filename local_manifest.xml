@@ -11,4 +11,5 @@
         <remote name="pegitlab"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
         <project path="vendor/google/sunfish" name="vendor_google_sunfish" remote="pegitlab" revision="twelve" clone-depth="1" />
+        <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
 </manifest>
