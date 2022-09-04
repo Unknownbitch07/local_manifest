@@ -19,5 +19,8 @@
         <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
         <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="peqcom" revision="twelve" clone-depth="1" />
         <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="peqcom" revision="twelve" clone-depth="1" />
-        <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" remote="peqcom" revision="twelve" clone-depth="1" />
+        <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" remote="peqcom" revision="twelve" clone-depth="1" >
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+        </project>
 </manifest>
