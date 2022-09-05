@@ -27,5 +27,5 @@
         <remote name="mm"
                 fetch="https://github.com/Hmm0" />
         <remove-project name="xd_vendor_xdroid" />
-        <project path="vendor/xdroid" name="xdroid_vendor" remote="mm" revision="twelve" clone-depth="1" >
+        <project path="vendor/xdroid" name="xdroid_vendor" remote="mm" revision="twelve" clone-depth="1" />
 </manifest>
