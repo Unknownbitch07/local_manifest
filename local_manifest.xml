@@ -15,6 +15,7 @@
         <remove-project name="platform/hardware/qcom/sm8150/display" />
         <remove-project name="platform/hardware/qcom/sm8150/media" />
         <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+        <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" remote="los" revision="lineage-20.0" clone-depth="1" >
