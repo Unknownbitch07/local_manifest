@@ -3,10 +3,7 @@
         <remote name="ub7"
                 fetch="https://github.com/ucoboy" />
         <project path="device/google/sunfish" name="device_google_sunfish" remote="ub7" revision="xd" clone-depth="1" />
-
-        <remote name="pekernel"
-                fetch="https://github.com/PixelExperience-Devices" />
-        <project path="kernel/google/msm-4.14" name="kernel_google_msm-4.14" remote="pekernel" revision="twelve" clone-depth="1" />
+        <project path="kernel/google/msm-4.14" name="kernel_google_msm-4.14" remote="ub7" revision="twelve" clone-depth="1" />
 
         <remote name="pegitlab"
                 fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
