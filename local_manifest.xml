@@ -24,10 +24,6 @@
         </project>
         <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="peqcom" revision="twelve" clone-depth="1" />
 
-        <remote name="clang" 
-                fetch="https://github.com/kdrag0n" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-
 	<remove-project name="xd_vendor_xdroid" />
         <remote name="hmm" 
                 fetch="https://github.com/hmm0" />
