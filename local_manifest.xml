@@ -33,8 +33,4 @@
                 fetch="https://github.com/hmm0" />
         <project path="vendor/xdroid" name="xdroid_vendor" remote="hmm" revision="twelve" clone-depth="1" />
 
-        <remote name="Nerd"
-		fetch="https://github.com/NerdZ3ns" />
-        <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="SDClang" remote="Nerd" revision="14" />
-
 </manifest>
