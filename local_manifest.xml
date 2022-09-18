@@ -20,4 +20,8 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
         </project>
+
+        <!-- Packages Apps -->
+        <remove-project name="xd_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="xdroid-oss/xd_packages_apps_Settings" remote="github" revision="thirteen_3.0" />
 </manifest>
