@@ -2,7 +2,7 @@
 <manifest>
         <remote name="ub7"
                 fetch="https://github.com/ucoboy" />
-        <project path="device/google/sunfish" name="device_google_sunfish" remote="ub7" revision="13" clone-depth="1" />
+        <project path="device/google/sunfish" name="device_google_sunfish" remote="ub7" revision="thirteen" clone-depth="1" />
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="ub7" revision="lineage-20" clone-depth="1" />
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="ub7" revision="lineage-20" clone-depth="1" />
 
