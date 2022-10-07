@@ -10,4 +10,7 @@
         <remote name="pe13"
                 fetch="https://github.com/PixelExperience" />
         <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="pe13" revision="thirteen" clone-depth="1" />
+        <remote name="gapps"
+                fetch="https://gitlab.com/dlwlrma123/" />
+        <project path="vendor/gms" name="vendor_google_pixel" remote="gapps" revision="thirteen" clone-depth="1" />
 </manifest>
