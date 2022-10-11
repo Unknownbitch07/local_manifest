@@ -6,10 +6,6 @@
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="ub7" revision="lineage-20" clone-depth="1" />
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="ub7" revision="lineage-20" clone-depth="1" />
 
-        <remove-project name="LineageOS/android_hardware_qcom_sm8150_display" />
-        <remote name="pe13"
-                fetch="https://github.com/PixelExperience" />
-        <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="pe13" revision="thirteen" clone-depth="1" />
         <remote name="gapps"
                 fetch="https://gitlab.com/dlwlrma123/" />
         <project path="vendor/gms" name="vendor_google_pixel" remote="gapps" revision="thirteen" clone-depth="1" />
