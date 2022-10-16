@@ -26,7 +26,7 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
         </project>
-        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="ub7" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="ub7" revision="thirteen-staging" clone-depth="1" />
 
         <remote name="hmm"
                 fetch="https://github.com/Hmm0" />
