@@ -8,6 +8,7 @@
 
         <remove-project name="platform/hardware/qcom/bootctrl" />
         <remove-project name="platform/hardware/qcom/wlan" />
+        <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
         <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="los" revision="lineage-20.0" clone-depth="1" />
