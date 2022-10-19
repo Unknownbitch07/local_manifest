@@ -3,7 +3,7 @@
         <remote name="xo"
                 fetch="https://github.com/xioyo" />
         <project path="device/google/sunfish" name="device_google_sunfish" remote="xo" revision="404" clone-depth="1" />
-        <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="xo" revision="lineage-20" clone-depth="1" />
+        <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="xo" revision="404" clone-depth="1" />
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="xo" revision="lineage-20" clone-depth="1" />
 
         <remove-project name="platform/hardware/qcom/bootctrl" />
