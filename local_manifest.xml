@@ -23,9 +23,9 @@
         </project>
         <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="los" revision="lineage-20.0" clone-depth="1" />
 
-        <remote name="aosp"
+        <remote name="sp"
                 fetch="https://android.googlesource.com"
                 review="android-review.googlesource.com"
                 revision="refs/tags/android-13.0.0_r11" />
-        <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
+        <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="sp" />
 </manifest>
