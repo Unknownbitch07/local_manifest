@@ -21,4 +21,11 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
         </project>
+        <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="los" revision="lineage-20.0" clone-depth="1" />
+
+        <remote name="aosp"
+                fetch="https://android.googlesource.com"
+                review="android-review.googlesource.com"
+                revision="refs/tags/android-13.0.0_r11" />
+        <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
 </manifest>
