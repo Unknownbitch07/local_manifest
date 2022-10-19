@@ -6,6 +6,7 @@
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="xo" revision="lineage-20" clone-depth="1" />
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="xo" revision="lineage-20" clone-depth="1" />
 
+        <remove-project name="platform/hardware/qcom/bootctrl" />
         <remove-project name="platform/hardware/qcom/wlan" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
