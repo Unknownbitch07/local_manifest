@@ -9,7 +9,7 @@
         <remove-project name="platform/hardware/qcom/bootctrl" />
         <remove-project name="platform/hardware/qcom/wlan" />
         <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-        <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+        <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
         <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="los" revision="lineage-20.0" clone-depth="1" />
