@@ -18,7 +18,6 @@
         <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" revision="lineage-20.0-caf" clone-depth="1" />
         <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-20.0" clone-depth="1" />
-        <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" remote="los" revision="lineage-20.0" clone-depth="1" >
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
@@ -28,5 +27,6 @@
         <remote name="pe13"
                 fetch="https://github.com/PixelExperience" />
         <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pe13" revision="thirteen" clone-depth="1" />
+        <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="pe13" revision="thirteen" clone-depth="1" />
         <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" groups="generic_fs,pixel" />
 </manifest>
