@@ -11,7 +11,6 @@
         <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
         <remove-project name="platform/hardware/google/pixel" />
         <remove-project name="platform/hardware/qcom/wlan" />
-        <remove-project name="xd_vendor_xdroidui" />
         <remove-project name="xd_vendor_xdroid" />
         <remove-project name="platform/hardware/qcom/audio" />
         <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
@@ -29,16 +28,4 @@
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
         </project>
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xo" revision="thirteen-staging" clone-depth="1" />
-
-        <remote name="hmm"
-                fetch="https://github.com/Hmm0" />
-        <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="hmm" revision="thirteen" clone-depth="1" />
-
-        <!-- Packages Apps -->
-        <remove-project name="xd_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="xdroid-oss/xd_packages_apps_Settings" remote="github" revision="thirteen-staging" />
-
-        <!-- Frameworks Base -->
-        <remove-project name="xd_frameworks_base" />
-        <project path="frameworks/base" name="xdroid-oss/xd_frameworks_base" remote="github" revision="thirteen-staging" />
 </manifest>
