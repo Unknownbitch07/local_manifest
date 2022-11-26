@@ -29,5 +29,8 @@
         <remove-project name="xd_vendor_xdroid" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xo" revision="thirteen" clone-depth="1" />
 
+        <remove-project name="xd_frameworks_base" />
+        <project path="frameworks/base" name="xd_frameworks_base" remote="xo" revision="thirteen" clone-depth="1"  />
+
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" />
 </manifest>
