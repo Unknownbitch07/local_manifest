@@ -7,6 +7,8 @@
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="xo" revision="lineage-20" clone-depth="1" />
 
         <remove-project name="device/google/sunfish" />
+        <remove-project name="device/google/sunfish-kernel" />
+        <remove-project name="device/google/sunfish-sepolicy" />
         <remove-project name="platform/hardware/qcom/sm8150/display" />
         <remove-project name="platform/hardware/qcom/sm8150/media" />
         <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
