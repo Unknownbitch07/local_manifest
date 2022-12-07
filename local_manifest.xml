@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+        <remove-project name="device/google/sunfish" />
         <remote name="xo"
                 fetch="https://github.com/xioyo" />
         <project path="device/google/sunfish" name="device_google_sunfish" remote="xo" revision="cipher" clone-depth="1" />
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="xo" revision="lineage-20" clone-depth="1" />
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="xo" revision="lineage-20" clone-depth="1" />
 
-        <remove-project name="device/google/sunfish" />
-        <remove-project name="device/google/sunfish-kernel" />
-        <remove-project name="device/google/sunfish-sepolicy" />
         <remove-project name="platform/hardware/qcom/sm8150/display" />
         <remove-project name="platform/hardware/qcom/sm8150/media" />
         <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
