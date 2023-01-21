@@ -19,6 +19,6 @@
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
         </project>
 
-        <remote name="cl" fetch ="https://gitlab.com/ImSurajxD" />
+        <remote name="cl" fetch="https://gitlab.com/ImSurajxD" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="cl" revision="master" />
 </manifest>
