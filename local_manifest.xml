@@ -6,6 +6,8 @@
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="xio" revision="lineage-20" clone-depth="1" />
         <project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="xio" revision="lineage-20" clone-depth="1" />
 
+/*
         <remote name="cl" fetch="https://gitlab.com/ImSurajxD" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="cl" revision="master" />
+*/
 </manifest>
