@@ -24,4 +24,6 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
         </project>
+
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" />
 </manifest>
