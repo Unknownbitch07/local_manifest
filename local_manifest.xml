@@ -8,4 +8,7 @@
                 fetch="https://github.com/LineageOS" />
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="knl" revision="lineage-21" clone-depth="1" />
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="knl" revision="lineage-21" clone-depth="1" />
+        <remote name="shnk"
+                fetch="https://gitlab.com/itsshashanksp" />
+                <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="shnk" revision="13.0" />
 </manifest>
