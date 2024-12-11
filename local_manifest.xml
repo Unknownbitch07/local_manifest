@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="rsd"
-                fetch="https://github.com/RisingOSS-devices" />
+                fetch="https://github.com/RisingTechOSS-devices" />
         <project path="device/google/sunfish" name="android_device_google_sunfish" remote="rsd" revision="fifteen" clone-depth="1" />
         <project path="vendor/google/sunfish" name="android_vendor_google_sunfish" remote="rsd" revision="fifteen" clone-depth="1" />
         <remote name="knl"
