@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rsd"
+        <remote name="rsg"
                 fetch="https://github.com/RisingTechOSS-devices" />
-        <project path="device/google/sunfish" name="device_google_sunfish" remote="rsd" revision="fifteen" clone-depth="1" />
-        <project path="vendor/google/sunfish" name="vendor_google_sunfish" remote="rsd" revision="fifteen" clone-depth="1" />
+        <project path="device/google/sunfish" name="device_google_sunfish" remote="rsg" revision="fifteen" clone-depth="1" />
+        <project path="vendor/google/sunfish" name="vendor_google_sunfish" remote="rsg" revision="fifteen" clone-depth="1" />
         <remote name="knl"
                 fetch="https://github.com/LineageOS" />
-        <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="knl" revision="lineage-22.0" clone-depth="1" />
+        <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="knl" revision="lineage-22.1" clone-depth="1" />
 </manifest>
