@@ -7,4 +7,5 @@
         <remote name="knl"
                 fetch="https://github.com/LineageOS" />
         <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="knl" revision="lineage-22.1" clone-depth="1" />
+         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="knl" revision="lineage-22.1" clone-depth="1" />
 </manifest>
